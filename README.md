@@ -1,0 +1,2 @@
+# command-line-framework
+This is a small framework using JCommander, spring and maven. Consumer needs to implement the Commands and this framework will automatically parse the command line parameters, map it to right command and execute the command. The command needs to be annotated with right attributes for parameter mapping. To understand the annotation refer to the JCommander (http://jcommander.org) documentation.
